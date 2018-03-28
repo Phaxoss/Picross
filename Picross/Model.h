@@ -10,5 +10,8 @@
 #define Model_h
 
 #include <stdio.h>
+#include <stdlib.h>
+
+void Model_tab(int mod,int Lmax,int Cmax, int TAB[Lmax+1][Cmax+1]);
 
 #endif /* Model_h */

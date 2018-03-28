@@ -28,12 +28,12 @@ int Ini_menu (int *n, int *m){
     }
     else {
         printf ("Chose the Model : \n1 - Chat\n2 - Mickey\n");
-        scanf("%d",&choix);
-        if (choix == 1) {
+        scanf("%d",&mod);
+        if (mod == 1) {
             *n = 22;
-            *m = 26;
+            *m = 17;
         }
         
     }
-    return choix;
+    return mod;
 }
