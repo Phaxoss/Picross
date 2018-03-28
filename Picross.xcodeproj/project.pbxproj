@@ -10,6 +10,7 @@
 		E49856D3206B805300AE303A /* Create_tab.c in Sources */ = {isa = PBXBuildFile; fileRef = E49856D1206B7C2900AE303A /* Create_tab.c */; };
 		E49856D6206B864A00AE303A /* MENU.c in Sources */ = {isa = PBXBuildFile; fileRef = E49856D5206B864A00AE303A /* MENU.c */; };
 		E49856D9206B8FF400AE303A /* Clear.c in Sources */ = {isa = PBXBuildFile; fileRef = E49856D8206B8FF400AE303A /* Clear.c */; };
+		E49856DC206BBDE300AE303A /* Model.c in Sources */ = {isa = PBXBuildFile; fileRef = E49856DB206BBDE300AE303A /* Model.c */; };
 		E4AD7D65206244050069A781 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E4AD7D64206244050069A781 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		E49856D5206B864A00AE303A /* MENU.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MENU.c; sourceTree = "<group>"; };
 		E49856D7206B8FF400AE303A /* Clear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clear.h; sourceTree = "<group>"; };
 		E49856D8206B8FF400AE303A /* Clear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Clear.c; sourceTree = "<group>"; };
+		E49856DA206BBDE300AE303A /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		E49856DB206BBDE300AE303A /* Model.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Model.c; sourceTree = "<group>"; };
 		E4AD7D61206244050069A781 /* Picross */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Picross; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AD7D64206244050069A781 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,8 +72,10 @@
 				E49856D4206B864A00AE303A /* MENU.h */,
 				E49856D0206B7C2900AE303A /* Create_tab.h */,
 				E49856D7206B8FF400AE303A /* Clear.h */,
+				E49856DA206BBDE300AE303A /* Model.h */,
 				E4AD7D64206244050069A781 /* main.c */,
 				E49856D5206B864A00AE303A /* MENU.c */,
+				E49856DB206BBDE300AE303A /* Model.c */,
 				E49856D1206B7C2900AE303A /* Create_tab.c */,
 				E49856D8206B8FF400AE303A /* Clear.c */,
 			);
@@ -138,6 +143,7 @@
 				E49856D3206B805300AE303A /* Create_tab.c in Sources */,
 				E49856D6206B864A00AE303A /* MENU.c in Sources */,
 				E49856D9206B8FF400AE303A /* Clear.c in Sources */,
+				E49856DC206BBDE300AE303A /* Model.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

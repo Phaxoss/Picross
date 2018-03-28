@@ -11,6 +11,7 @@
 #include <time.h>
 #include "Create_tab.h"
 #include "Clear.h"
+#include "MENU.h"
 
 void compt (int Lmax, int Cmax, int Lmin, int Cmin, int Cacc, int Lacc,int TAB[Lmax+1][Cmax+1]){
     int i, p;
@@ -56,11 +57,10 @@ void Display_TAB (int Lmax, int Cmax,int TAB[Lmax+1][Cmax+1]){
 
 int main()
 {
+    clearScreen();
     srand((unsigned int)time(NULL));
-    int n, m;
-    int *pn=NULL, *pm = NULL;
-    printf ("fuck et entre deux chiffres\n");
-    scanf("%d %d",&m,&n);
+    int n = 0, m= 0;
+    int mod = Ini_menu(&n, &m);
     
     int Lacc, Lmin, Lmax, Cacc, Cmin, Cmax;
     if(m%2 == 0){
@@ -119,9 +119,6 @@ int main()
     printf("\n\n\n");
     clearScreen();
     Display_TAB(Lmax, Cmax,TAB);
-    
-    
-    
-    
+    clearScreen();
     return 0;
 }
